@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> lista de tarefas</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <h1>Lista de Tarefas</h1>
+        <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    </div>
+    
+    <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Nova tarefa...">
+        <button onclick="addTask()">Adicionar</button>
+    </div>
+    
+    <ul class="task-list" id="taskList"></ul>
+</div>
+
+<script src="index.js"></script>
+  
+</body>
+</html>
